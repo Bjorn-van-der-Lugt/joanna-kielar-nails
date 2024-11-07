@@ -1,0 +1,90 @@
+// variables
+// --------------------------
+
+@fa-css-prefix          : fa;
+@fa-style               : 900;
+@fa-style-family        : "Font Awesome 6 Pro";
+
+@fa-display             : inline-block;
+
+@fa-fw-width            : (20em / 16);
+@fa-inverse             : #fff;
+
+@fa-border-color        : #eee;
+@fa-border-padding      : .2em .25em .15em;
+@fa-border-radius       : .1em;
+@fa-border-style        : solid;
+@fa-border-width        : .08em;
+
+@fa-size-scale-2xs      : 10;
+@fa-size-scale-xs       : 12;
+@fa-size-scale-sm       : 14;
+@fa-size-scale-base     : 16;
+@fa-size-scale-lg       : 20;
+@fa-size-scale-xl       : 24;
+@fa-size-scale-2xl      : 32;
+
+.fa-sizes() {
+  2xs                   : @fa-size-scale-2xs;
+  xs                    : @fa-size-scale-xs;
+  sm                    : @fa-size-scale-sm;
+  lg                    : @fa-size-scale-lg;
+  xl                    : @fa-size-scale-xl;
+  2xl                   : @fa-size-scale-2xl;
+}
+
+@fa-li-width            : 2em;
+@fa-li-margin           : (@fa-li-width * 5/4);
+
+@fa-pull-margin         : .3em;
+
+@fa-primary-opacity     : 1;
+@fa-secondary-opacity   : .4;
+
+@fa-stack-vertical-align: middle;
+@fa-stack-width         : (@fa-fw-width * 2);
+@fa-stack-z-index       : auto;
+
+@fa-font-display        : block;
+@fa-font-path           : "../webfonts";
+
+@fa-var-bars: "\f0c9";
+@fa-var-navicon: "\f0c9";
+@fa-var-caret-down: "\f0d7";
+@fa-var-caret-up: "\f0d8";
+@fa-var-house: "\f015";
+@fa-var-home: "\f015";
+@fa-var-home-alt: "\f015";
+@fa-var-home-lg-alt: "\f015";
+@fa-var-location-dot: "\f3c5";
+@fa-var-map-marker-alt: "\f3c5";
+@fa-var-money-bill-wave: "\f53a";
+@fa-var-phone: "\f095";
+
+@fa-var-facebook: "\f09a";
+@fa-var-instagram: "\f16d";
+@fa-var-whatsapp: "\f232";
+
+.fa-icons() {
+  bars: @fa-var-bars;
+  navicon: @fa-var-navicon;
+  caret-down: @fa-var-caret-down;
+  caret-up: @fa-var-caret-up;
+  house: @fa-var-house;
+  home: @fa-var-home;
+  home-alt: @fa-var-home-alt;
+  home-lg-alt: @fa-var-home-lg-alt;
+  location-dot: @fa-var-location-dot;
+  map-marker-alt: @fa-var-map-marker-alt;
+  money-bill-wave: @fa-var-money-bill-wave;
+  phone: @fa-var-phone;
+}
+
+.fa-brand-icons() {
+  facebook: @fa-var-facebook;
+  instagram: @fa-var-instagram;
+  whatsapp: @fa-var-whatsapp;
+}
+
+.fa-custom-icons() {
+}

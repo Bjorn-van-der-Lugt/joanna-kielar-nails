@@ -1,0 +1,281 @@
+---
+bars:
+  aliases:
+    names:
+      - navicon
+    unicodes:
+      secondary:
+        - 10f0c9
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+  label: Bars
+  search:
+    terms:
+      - checklist
+      - drag
+      - hamburger
+      - list
+      - menu
+      - nav
+      - navigation
+      - ol
+      - reorder
+      - settings
+      - todo
+      - ul
+  styles:
+    - light
+  unicode: f0c9
+  voted: false
+caret-down:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f0d7
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+  label: Caret Down
+  search:
+    terms:
+      - arrow
+      - dropdown
+      - expand
+      - menu
+      - more
+      - triangle
+  styles:
+    - light
+  unicode: f0d7
+  voted: false
+caret-up:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f0d8
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+  label: Caret Up
+  search:
+    terms:
+      - arrow
+      - collapse
+      - triangle
+      - upgrade
+  styles:
+    - light
+  unicode: f0d8
+  voted: false
+facebook:
+  aliases:
+    unicodes:
+      composite:
+        - f230
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.8.2
+    - 6.5.0
+  label: Facebook
+  search:
+    terms:
+      - fabook
+      - facebook-official
+      - fb
+      - social network
+  styles:
+    - brands
+  unicode: f09a
+  voted: false
+house:
+  aliases:
+    names:
+      - home
+      - home-alt
+      - home-lg-alt
+    unicodes:
+      composite:
+        - 1f3e0
+        - f80a
+        - f80c
+      primary:
+        - f80a
+        - f80c
+      secondary:
+        - 10f015
+        - 10f80a
+        - 10f80c
+  changes:
+    - 1.0.0
+    - 5.0.0
+    - 5.7.0
+    - 6.0.0-beta1
+    - 6.0.0-beta2
+    - 6.0.0-beta3
+    - 6.1.0
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+  label: House
+  search:
+    terms:
+      - abode
+      - building
+      - home
+      - house
+      - main
+      - residence
+  styles:
+    - light
+  unicode: f015
+  voted: false
+instagram:
+  changes:
+    - 4.6.0
+    - 5.0.0
+  label: Instagram
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f16d
+  voted: false
+location-dot:
+  aliases:
+    names:
+      - map-marker-alt
+    unicodes:
+      secondary:
+        - 10f3c5
+  changes:
+    - 5.0.0
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+  label: Location Dot
+  search:
+    terms:
+      - address
+      - coordinates
+      - destination
+      - gps
+      - localize
+      - location
+      - map
+      - navigation
+      - paper
+      - pin
+      - place
+      - point of interest
+      - position
+      - route
+      - travel
+  styles:
+    - light
+  unicode: f3c5
+  voted: false
+money-bill-wave:
+  aliases:
+    unicodes:
+      secondary:
+        - 10f53a
+  changes:
+    - 5.0.13
+    - 6.0.0-beta1
+    - 6.0.0-beta3
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+  label: Money Bill Wave
+  search:
+    terms:
+      - buy
+      - cash
+      - checkout
+      - money
+      - payment
+      - premium
+      - price
+      - purchase
+      - salary
+  styles:
+    - light
+  unicode: f53a
+  voted: true
+phone:
+  aliases:
+    unicodes:
+      composite:
+        - 1f4de
+        - 1f57b
+      secondary:
+        - 10f095
+  changes:
+    - 2.0.0
+    - 5.0.0
+    - 5.10.1
+    - 5.10.2
+    - 6.0.0-beta1
+    - 6.2.0
+    - 6.3.0
+    - 6.4.0
+    - 6.5.0
+    - 6.6.0
+  label: Phone
+  search:
+    terms:
+      - Left Hand Telephone Receiver
+      - call
+      - earphone
+      - number
+      - phone
+      - receiver
+      - support
+      - talking
+      - telephone
+      - telephone receiver
+      - voice
+  styles:
+    - light
+  unicode: f095
+  voted: false
+whatsapp:
+  changes:
+    - 4.3.0
+    - 5.0.0
+  label: What's App
+  search:
+    terms: []
+  styles:
+    - brands
+  unicode: f232
+  voted: false

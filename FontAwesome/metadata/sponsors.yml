@@ -1,0 +1,6 @@
+---
+rocket-chat:
+  icons:
+    - phone
+  label: Rocket.Chat
+  url: https://rocket.chat

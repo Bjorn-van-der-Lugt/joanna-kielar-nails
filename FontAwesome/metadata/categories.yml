@@ -1,0 +1,41 @@
+---
+arrows:
+  icons:
+    - caret-down
+    - caret-up
+  label: Arrows
+buildings:
+  icons:
+    - house
+  label: Buildings
+business:
+  icons:
+    - phone
+  label: Business
+coding:
+  icons:
+    - bars
+  label: Coding
+communication:
+  icons:
+    - phone
+  label: Communication
+editing:
+  icons:
+    - bars
+  label: Editing
+maps:
+  icons:
+    - house
+    - location-dot
+    - phone
+  label: Maps
+money:
+  icons:
+    - money-bill-wave
+  label: Money
+social:
+  icons:
+    - facebook
+    - location-dot
+  label: Social

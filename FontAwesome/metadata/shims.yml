@@ -1,0 +1,12 @@
+---
+facebook-official:
+  name: facebook
+  prefix: fab
+home:
+  name: house
+map-marker:
+  name: location-dot
+navicon:
+  name: bars
+reorder:
+  name: bars
