@@ -246,7 +246,7 @@ body {
          color: #FFFFFF;
 }
 
-.landing__cta {
+.landing__cta, .home__cta {
     width: 15rem;
     margin: calc( var(--margin-vertical) * 2 ) 0;
     padding: var(--padding-vertical) var(--padding-horizontal);
@@ -258,7 +258,7 @@ body {
     text-align: center;
 }
 
-.landing__cta:hover {
+.landing__cta:hover, .home__cta:hover {
     background-image: linear-gradient(#444444, #000000);
 }
 
