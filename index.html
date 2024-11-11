@@ -16,7 +16,7 @@
 <meta http-equiv=Content-Security-Policy content=" default-src 'self'; img-src 'self' data: https://www.google.com https://maps.gstatic.com https://*.gstatic.com; script-src 'self' https://www.google.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; frame-src https://www.google.com; child-src https://www.google.com; object-src 'none'; base-uri 'self'; form-action 'self'; ">
 <meta http-equiv=X-UA-Compatible content="ie=edge">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel=stylesheet>
-<link rel=stylesheet href=styles.css>
+<link rel=stylesheet href=styles-dev.css>
 <link rel=stylesheet href=FontAwesome/css/all.min.css>
 <link rel=manifest href=site.webmanifest>
 <link href=android-chrome-192x192.png rel=icon type=image/png sizes=192x192>
@@ -27,15 +27,15 @@
 <link href=favicon.ico rel=icon type=image/x-icon>
 <meta property=og:title content="Joanna Kielar Nails">
 <meta property=og:description content="Twój ulubiony salon paznokci">
-<meta property="og:image" content="https://raw.githubusercontent.com/Bjorn-van-der-Lugt/joanna-kielar-nails/main/images/og.jpg">
-<meta property=og:url content=https://www.paznokcie-joanna-kielar.pl/>
+<meta property=og:image content=https://raw.githubusercontent.com/Bjorn-van-der-Lugt/joanna-kielar-paznokcie/main/images/og.jpg>
+<meta property=og:url content=http://paznokcie-joanna-kielar.pl/ >
 <meta property=og:type content=website>
 <meta property=og:locale content=pl_PL>
 <meta property=og:site_name content="Joanna Kielar Nails">
 <meta name=twitter:card content=summary_large_image>
 <meta name=twitter:title content="Joanna Kielar Nails">
 <meta name=twitter:description content="Twój ulubiony salon paznokci">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/Bjorn-van-der-Lugt/joanna-kielar-nails/main/images/og.jpg">
+<meta name=twitter:image content=images/og.jpg>
 <meta name=description content="Twój ulubiony salon paznokci">
 <meta name=keywords content="Brwi, Paznokcie, Ściągnięcie stylizacji, Manicure hybrydowy, Przedłużanie paznokci, 
   Uzupełnienie żelowe, Naprawa paznokcia, Ombre / babyboomer, French, Zdobienie ręcznie malowane, Henna pudrowa, Regulacja brwi">
@@ -142,10 +142,9 @@ Regulacja brwi
 <section id=home class=home>
 <h2 class=home__header>Witamy w Joanna Kielar Nails</h2>
 <p class=home__text>
-Specjalizuję się w stylizacji paznokci i brwi, stawiając na jakość i komfort. Oferuję delikatny, 
-minimalistyczny wygląd lub kreatywne zdobienia—zawsze dopasowane do Twoich potrzeb. Ciepła i 
-przyjazna atmosfera mojego salonu sprawia, że każda klientka czuje się zrelaksowana i otoczona opieką.
+Miejscu, gdzie Twoje piękno jest naszą pasją. Skupiamy się na tworzeniu relaksującego i spersonalizowanego doświadczenia, oferując profesjonalne usługi stylizacji paznokci i brwi, aby podkreślić Twój unikalny styl. Wejdź do spokojnej, przyjaznej przestrzeni zaprojektowanej z myślą o jakości i komforcie, i wyjdź czując się odświeżona i pewna siebie. Tutaj każdy detal jest starannie dopracowany, abyś wyglądała i czuła się jak najlepiej.
 </p>
+<a href=#contact id=home__cta class=home__cta>Umów się na wizytę</a>
 </section>
 <div class=curved-divider>
 <svg viewBox="0 0 1200 120" xmlns=http://www.w3.org/2000/svg>
@@ -163,9 +162,9 @@ przyjazna atmosfera mojego salonu sprawia, że każda klientka czuje się zrelak
     (max-width: 479px) 100vw" alt="Zdjęcie ściągnięcia stylizacji" loading=lazy>
 </div>
 <div class=services__text>
-<h3 class=services__header>Ściągnięcie stylizacji + Manicure</h3>
+<h3 class=services__header>Ściągnięcie stylizacji</h3>
 <p class=services__description>
-Ściągnięcie stylizacji + manicure - Usługa bezpiecznego usunięcia dotychczasowej stylizacji paznokci, nastepnie wykonania manicure.
+Ściągnięcie stylizacji + manicure - Usługa bezpiecznego usunięcia dotychczasowej stylizacji paznokci, po której wykonuje się nowy manicure, przywracając naturalne piękno paznokci.
 </p>
 </div>
 </div>
@@ -173,8 +172,7 @@ przyjazna atmosfera mojego salonu sprawia, że każda klientka czuje się zrelak
 <div class=services__text>
 <h3 class=services__header>Manicure hybrydowy</h3>
 <p class=services__description>
-Manicure hybrydowy - Trwały i wytrzymała stylizacja z uzyciem lakieru hybrydowego,
-zapewniający utrzymanie stylizacji do 3 tygodni.
+Manicure hybrydowy - Trwały i wytrzymała stylizacja z uzyciem lakieru hybrydowego, zapewniający utrzymanie stylizacji do 3 tygodni.
 </p>
 </div>
 <div class="services__picture right serviceII">
@@ -231,13 +229,14 @@ Uzupełnienie żelowe - Usługa polegająca na uzupelnieniu odrostu paznokci że
 <h3 class=services__header>Naprawa paznokcia</h3>
 <p class=services__description>
 Naprawa paznokcia - Usługa naprawy złamanego lub uszkodzonego paznokcia.
+</p>
 </div>
 </div>
 <div id=serviceVI class=services__wrapper>
 <div class=services__text>
 <h3 class=services__header>Ombre / Babyboomer</h3>
 <p class=services__description>
-    Ombre / Babyboomer - cieniowanie za pomoca nakladania warstw lakieru tworzac idealne przejscie pomiedzy kolorami.
+Ombre / Babyboomer - cieniowanie za pomoca nakladania warstw lakieru tworzac idealne przejscie pomiedzy kolorami.
 </p>
 </div>
 <div class="services__picture right serviceVI">
@@ -301,7 +300,7 @@ Henna pudrowa - Naturalny zabieg na brwi z użyciem pudrowej henny, nadajac kszt
 <div class=services__text>
 <h3 class=services__header>Regulacja brwi</h3>
 <p class=services__description>
-Regulacja brwi - Precyzyjna usługa  regulacji i modelowania brwi, podkreślająca naturalne rysy twarzy.
+Regulacja brwi - Precyzyjna usługa regulacji i modelowania brwi, podkreślająca naturalne rysy twarzy.
 </p>
 </div>
 <div class="services__picture right serviceX">
@@ -438,6 +437,6 @@ Facebook
 </ul>
 <span class=footer__copyright>© 2024 B.K.A. van der Lugt all rights reserved.<span></span>
 </span></footer>
-<script src=scripts.js></script>
+<script src=scripts-dev.js></script>
 </body>
 </html>
