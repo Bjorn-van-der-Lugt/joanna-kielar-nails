@@ -839,6 +839,10 @@ body {
 
 @media (max-width: 479px) {
 
+    .home {
+        padding-top: var(--padding-vertical);
+    }
+
    .header__list, .header__ul, .header__ul.nails .header__list, .header__ul.eyebrows .header__list {
         margin-top: calc( var(--margin-vertical) / 3 );
         margin-bottom: calc( var(--margin-vertical) / 3 );   
